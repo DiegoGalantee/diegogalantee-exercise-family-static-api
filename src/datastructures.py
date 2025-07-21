@@ -51,6 +51,7 @@ class FamilyStructure:
             if m["id"] == id:
                 return m
         return None
-
+    
+    
     def get_all_members(self):
         return self._members
